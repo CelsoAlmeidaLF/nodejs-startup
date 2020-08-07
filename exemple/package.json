@@ -4,7 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./src/app.js"
+    "start": "nodemon ./src/app.js",
+    "bootstrap":"cp -r node_modules/bootstrap/dist/ ./dist",
+    "popper":"cp -r node_modules/popper.js/dist/ ./dist/js",
+    "jquery":"cp -r node_modules/jquery/dist/ ./dist/js",
+    "build":"npm run bootstrap && npm run popper && npm run jquery"
   },
   "keywords": [],
   "author": "Systekna",
