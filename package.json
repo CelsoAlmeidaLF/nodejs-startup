@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "clear; ./bin/nodejs.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CelsoAlmeidaLF/nodejs-start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CelsoAlmeidaLF/nodejs-start/issues"
+  },
+  "homepage": "https://github.com/CelsoAlmeidaLF/nodejs-start#readme"
+}
