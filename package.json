@@ -1,20 +1,24 @@
 {
-  "name": "nodejs-start",
+  "name": "appweb01",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "clear; ./bin/nodejs.sh"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CelsoAlmeidaLF/nodejs-start.git"
+    "start": "nodemon ./src/app.js",
+    "bootstrap": "cp -r  node_modules/bootstrap/dist/ dist",
+    "jquery": "cp -r  node_modules/jquery/dist/*.js dist/js",
+    "build": "npm run bootstrap && npm run jquery"
   },
   "keywords": [],
-  "author": "",
+  "author": "Systekna",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CelsoAlmeidaLF/nodejs-start/issues"
-  },
-  "homepage": "https://github.com/CelsoAlmeidaLF/nodejs-start#readme"
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "jquery": "^3.5.1",
+    "mysql": "^2.18.1",
+    "popper.js": "^1.16.1"
+  }
 }
