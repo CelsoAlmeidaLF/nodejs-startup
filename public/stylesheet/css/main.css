@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "galada";
+  src: url(./../../fonts/galada-regular.ttf);
+  font-style: normal;
+}
+.navbar-brand {
+  font-weight: 400;
+  font-size: 2.2rem;
+  font-family: galada;
+}
+
+.navbar-nav {
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=main.css.map */

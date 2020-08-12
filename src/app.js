@@ -17,7 +17,4 @@ app.use(express.static(path.join(__dirname,'../dist')))
 app.use('/', routes);
 
 // outros
-app.listen(port,()=>{ console.log("server open: appweb3, localhost: " + port) })
-
-// cp -r  node_modules/bootstrap/dist/ dist
-// cp -r  node_modules/jquery/dist/*.js dist
+app.listen(port,()=>{ console.log("server open: http://localhost:" + port) })

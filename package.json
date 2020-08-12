@@ -7,7 +7,8 @@
     "start": "nodemon ./src/app.js",
     "bootstrap": "cp -r  node_modules/bootstrap/dist/ dist",
     "jquery": "cp -r  node_modules/jquery/dist/*.js dist/js",
-    "build": "npm run bootstrap && npm run jquery"
+    "copy.bootstrap": "npm run bootstrap && npm run jquery",
+    "build.sass":"sass scss:css"
   },
   "keywords": [],
   "author": "Systekna",

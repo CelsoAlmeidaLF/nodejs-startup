@@ -6,6 +6,3 @@
 # production
 /build
 /dist
-
-# outros
-/lib
