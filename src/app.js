@@ -9,7 +9,7 @@ const port = 3000
 app.engine('handlebars',handlebars({defaultLayout:'main'}))
 app.set('view engine','handlebars')
 
-// public
+// public folder
 app.use(express.static(path.join(__dirname,'../public')))
 app.use(express.static(path.join(__dirname,'../dist')))
 
@@ -17,4 +17,4 @@ app.use(express.static(path.join(__dirname,'../dist')))
 app.use('/', routes);
 
 // outros
-app.listen(port,()=>{ console.log("server open: http://localhost:" + port) })
+app.listen(port,()=>{ console.log("running server: http://localhost:" + port) })
