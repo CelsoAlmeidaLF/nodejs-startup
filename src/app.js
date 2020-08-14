@@ -11,7 +11,6 @@ app.set('view engine','handlebars')
 
 // public folder
 app.use(express.static(path.join(__dirname,'../public')))
-app.use(express.static(path.join(__dirname,'../dist')))
 
 // rotas
 app.use('/', routes);
