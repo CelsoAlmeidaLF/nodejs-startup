@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./src/app.js",
-    "build.sass": "sass scss:css"
+    "start": "nodemon ./bin"
   },
   "keywords": [],
   "author": "Systekna",
