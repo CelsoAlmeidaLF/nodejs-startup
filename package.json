@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./bin"
+    "start": "nodemon ./bin",
+    "live": "live-server ./src"
   },
   "keywords": [],
   "author": "Systekna",
@@ -17,5 +18,8 @@
     "jquery": "^3.5.1",
     "mysql": "^2.18.1",
     "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
   }
 }
