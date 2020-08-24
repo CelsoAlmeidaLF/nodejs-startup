@@ -4,8 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./bin",
-    "live": "live-server ./src"
+    "live": "live-server ./src/mighty",
+    "build": "webpack",
+    "server": "webpack-dev=server"
   },
   "keywords": [],
   "author": "Systekna",
@@ -20,6 +21,18 @@
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "html-webpack-plugin": "^4.3.0",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
