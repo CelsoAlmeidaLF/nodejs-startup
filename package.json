@@ -14,9 +14,9 @@
   "author": "Systekna",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "bootstrap": "^4.5.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-handlebars": "^5.1.0",
     "jquery": "^3.5.1",
     "mysql": "^2.18.1",
